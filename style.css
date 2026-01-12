@@ -109,23 +109,6 @@ nav {
     height: 3vw;
 }
 
-.itch-button {
-    background-image: url(assets/img/badge.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    display: block;
-    aspect-ratio: 1198/369;
-    height: 3vw;
-}
-
-.itch-button:hover {
-    background-image: url(assets/img/badge-color.png);
-}
-
-.nav-button:hover {
-    background-color: white;
-    color: black;
-}
 
 .circle-image {
     border-radius: 50%;
@@ -171,7 +154,25 @@ nav {
 #home {
     scroll-margin-top: 100px;
 }
-
+#about {
+    scroll-margin-top: 100px;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 1)
+    ),
+    url(assets/img/VA.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 5.625vw;
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    font-size: 2vw;
+}
 #about {
     scroll-margin-top: 100px;
     background-image: linear-gradient(
