@@ -32,14 +32,19 @@ h3 {
     font-size: 4vw;
     border-style: solid;
     border-color: white;
-    margin: auto;
 }
 
 h4 {
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
     text-transform: uppercase;
     text-align: center;
     font-size: 3vw;
+    border-style: solid;
+    border-color: white;
+    margin-inline: auto;
+    padding: 0.5%;
+    width: fit-content;
 }
 
 p {
@@ -170,25 +175,6 @@ nav {
     background-repeat: no-repeat;
     width: 100%;
     height: 41.841004184vw;
-    align-items: top;
-    justify-content: top;
-    font-size: 2vw;
-}
-#about {
-    scroll-margin-top: 100px;
-    background-image: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 1),
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, 1)
-    ),
-    url(assets/img/VA.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 5.625vw;
-    display: flex;
     align-items: top;
     justify-content: top;
     font-size: 2vw;
