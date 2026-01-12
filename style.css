@@ -149,10 +149,25 @@ nav {
     background-repeat: no-repeat;
     height: 56.25vw;
     width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #home {
     scroll-margin-top: 100px;
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, 0)
+    ),
+    url(assets/img/VA.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 41.841004184vw;
+    align-items: top;
+    justify-content: top;
+    font-size: 2vw;
 }
 #about {
     scroll-margin-top: 100px;
